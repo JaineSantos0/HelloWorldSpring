@@ -14,24 +14,24 @@ public class HelloController {
 
     @GetMapping("/bsm")
     public String bsm() {
-        return "BSMs da Generation Brasil\n" +
-                "- Persistência\n" +
-                "- Mentalidade de Crescimento\n" +
-                "- Orientação ao Futuro\n" +
-                "- Responsabilidade Pessoal\n" +
-                "- Trabalho em Equipe\n" +
-                "- Comunicação\n" +
-                "- Comunicação Não Violenta\n" +
-                "- Atenção para Detalhes\n" +
+        return "BSMs da Generation Brasil " +
+                "- Persistência " +
+                "- Mentalidade de Crescimento " +
+                "- Orientação ao Futuro " +
+                "- Responsabilidade Pessoal " +
+                "- Trabalho em Equipe " +
+                "- Comunicação " +
+                "- Comunicação Não Violenta " +
+                "- Atenção para Detalhes " +
                 "- Proatividade";
     }
 
     @GetMapping("/objetivo")
     public String objetivo() {
-        return "Objetivos de Aprendizagem\n" +
-                "Gestão do tempo\n" +
-                "Organização\n" +
-                "Vídeos da Plataforma\n" +
+        return "Objetivos de Aprendizagem " +
+                "Gestão do tempo " +
+                "Organização " +
+                "Vídeos da Plataforma " +
                 "Exercícios e Projeto integrador";
     }
 }
